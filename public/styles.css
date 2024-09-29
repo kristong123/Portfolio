@@ -1,0 +1,281 @@
+/**
+ * Kris Tong
+ * 6/27/2024
+ * Section AB: Tara and Rasmus
+ *
+ * The main CSS file that controls the styling for all the html pages in this portfolio.
+ */
+/* ------------------------------ Custom Properties ------------------------------ */
+:root {
+  --dark1: #484669;
+  --dark2: #54526b;
+  --light1: #c7c7db;
+  --light2: #a8a7c4;
+  --default-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  --default-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  --default-easing: all 0.3s ease-out;
+  --deafult-border-radius: 10px;
+}
+
+/* ------------------------------ Global styles ------------------------------ */
+body {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  background-color: var(--dark2);
+}
+
+.section-button p,
+#about-title h1,
+#experience-title h1,
+#projects-title h1,
+#api-title h1,
+#node-api-title h1 {
+  color: var(--light2);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  background-color: var(--dark1);
+  border-radius: 20px;
+  transition: var(--default-easing);
+}
+
+.profile p {
+  font-weight: bold;
+  font-size: 3vh;
+  text-shadow: var(--default-text-shadow);
+  margin-left: 5%;
+}
+
+.profile img {
+  height: 60%;
+  border-radius: 50%;
+  box-shadow: var(--default-box-shadow);
+  /* horizontal offset, vertical offset, blur radius, color */
+}
+
+/* ------------------------------ Start Page ------------------------------ */
+#profile-start {
+  height: 20vh;
+  width: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: var(--default-box-shadow);
+}
+
+#profile-start p {
+  font-size: 5vh;
+}
+
+#profile-start:hover {
+  transform: translate(-50%, -50%) scale(1.01);
+}
+
+/* ------------------------------ Home Page ------------------------------ */
+#profile-home {
+  height: 6%;
+  width: 100%;
+  box-shadow: var(--default-box-shadow);
+}
+
+#profile-home:hover {
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+#profile-home p {
+  font-size: 2.5vh;
+}
+
+/* --------------- Sidebar --------------- */
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 20vh;
+}
+
+.section-button {
+  transition: var(--default-easing);
+  cursor: pointer;
+}
+
+.section-button:hover p {
+  color: var(--light1);
+}
+
+.section-button:hover div {
+  width: 100%;
+}
+
+.section-button p {
+  font-size: 2vh;
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  margin-left: 2vh;
+  text-shadow: var(--default-text-shadow);
+  transition: var(--default-easing);
+}
+
+.section-button div {
+  margin-bottom: 0;
+  height: 2px;
+  width: 80%;
+  border-width: 0;
+  background: linear-gradient(to right, var(--dark1), var(--dark1), transparent);
+  transition: var(--default-easing);
+}
+
+/* --------------- Content --------------- */
+.home {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.home main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 22vh;
+}
+
+.home main section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.home main p {
+  margin: 1vh;
+  text-shadow: var(--default-text-shadow);
+}
+
+#about-title,
+#experience-title,
+#projects-title,
+#api-title,
+#node-api-title {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+}
+
+#about-title h1,
+#experience-title h1,
+#projects-title h1,
+#api-title h1,
+#node-api-title h1 {
+  font-size: 4vh;
+  margin: 3vh;
+  text-shadow: var(--default-text-shadow);
+}
+
+.styled-link {
+  cursor: pointer;
+  color: var(--light2);
+  background-color: var(--dark1);
+  border-radius: var(--deafult-border-radius);
+  padding: 5px;
+  text-decoration: none;
+}
+
+#cheapshark-games {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2vh;
+}
+
+#cheapshark-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+}
+
+#cheapshark-game img {
+  width: 30vh;
+}
+
+#amiibos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2vh;
+}
+
+#amiibo img {
+  width: 30vh;
+}
+
+/* --------------- Node API --------------- */
+.song-display {
+  display: flex;
+  flex-direction: row;
+  text-shadow: var(--default-text-shadow);
+  background-color: var(--dark1);
+  border-radius: var(--deafult-border-radius);
+  width: 38vh;
+  height: 10vh;
+  margin: 2vh;
+  padding: 2vh;
+}
+
+.song-display img {
+  box-shadow: var(--default-box-shadow);
+  margin-right: 5%;
+}
+
+.song-display div {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-display div h2 {
+  margin: 0;
+  color: var(--light2);
+}
+
+.song-display div h3 {
+  margin: 0;
+  color: var(--light1);
+}
+
+.song-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* ------------------------------ Error elements ------------------------------ */
+#error-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#error-container p {
+  color: rgb(255, 0, 0);
+  font-size: 2vh;
+  text-align: center;
+  text-shadow: var(--default-text-shadow);
+  background-color: var(--dark1);
+  border-radius: var(--deafult-border-radius);
+  pointer-events: none;
+  padding: 1vh;
+}

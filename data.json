@@ -1,0 +1,31 @@
+{
+  "songs": [
+    {
+      "title": "Bitter Pill",
+      "artist": "Christian Kuria",
+      "img": "https://i.scdn.co/image/ab67616d0000b2735d9f44aad41cfdf90f4d039a"
+    },
+    {
+      "title": "Over the Moon",
+      "artist": "The Marias",
+      "img": "https://i.scdn.co/image/ab67616d0000b273a64b06c0eb30ce15c3e6edc1"
+    },
+    {
+      "title": "CPR",
+      "artist": "Summer Walker",
+      "img": "https://i.scdn.co/image/ab67616d0000b273fb023e6073e38a52082cc7b6"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Yo",
+      "artist": "Kanye West",
+      "img": "https://i.scdn.co/image/ab67616d0000b273fb023e6073e38a52082cc7b6"
+    },
+    {
+      "title": "Fire",
+      "artist": "Google",
+      "img": "https://lh3.google.com/u/0/ogw/AF2bZyirjjGavnEvOkryVvTTN2vZQT7a_w9wIZbbxe87W6SqBA=s32-c-mo"
+    }
+  ]
+}
