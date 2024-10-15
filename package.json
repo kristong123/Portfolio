@@ -1,11 +1,13 @@
 {
+  "type": "module",
   "name": "portfolio",
   "version": "1.0.0",
   "description": "My personal portfolio showcasing my projects and skills.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "Kris Tong",
   "license": "ISC",
