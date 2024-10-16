@@ -5,7 +5,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import API from './components/API';
 import NodeAPI from './components/NodeAPI';
-import './styles/styles.css';
+import './styles/styles.scss';
 
 const App: React.FC = () => {
   return (
