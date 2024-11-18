@@ -3,20 +3,16 @@ import Sidebar from './components/Sidebar';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import API from './components/API';
-import NodeAPI from './components/NodeAPI';
-import './styles/styles.scss';
+import './index.css';
 
 const App: React.FC = () => {
   return (
-    <div className="home">
+    <div className="flex flex-row w-[90%]">
       <Sidebar />
-      <main>
+      <main className="flex flex-col w-full ml-[22vh]">
         <About />
         <Experience />
         <Projects />
-        <API />
-        <NodeAPI />
       </main>
     </div>
   );
