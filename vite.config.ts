@@ -20,6 +20,6 @@ export default defineConfig({
     }
   },
   css: {
-    postcss: './postcss.config.mjs'
+    postcss: './postcss.config.mts'
   }
 })

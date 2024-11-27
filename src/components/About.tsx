@@ -10,7 +10,7 @@ const About: React.FC = () => {
         'section'
       )}
     >
-      <div id="about-title">
+      <div>
         <h1>About</h1>
       </div>
       <div 
@@ -19,7 +19,7 @@ const About: React.FC = () => {
           // Base styles
           'bubble',
           // Layout
-          'w-fit',
+          'w-[100vh]',
           // Spacing
           'p-[4vh]', 'pt-[2.5vh]'
         )}

@@ -16,40 +16,16 @@ const Projects: React.FC = () => {
       id="projects"
       className={clsx(
         // Base styles
-        'section',
-        // Layout
-        'flex flex-col',
-        // Sizing
-        'h-fit w-[70%]',
-        // Spacing
-        'mb-8'
+        'section'
       )}
     >
-      <div 
-        className={clsx(
-          // Layout
-          'flex items-center',
-          // Sizing
-          'h-32'
-        )}
-      >
-        <h1 
-          className={clsx(
-            // Typography
-            'text-light2 text-4xl',
-            // Spacing
-            'my-12 mx-12',
-            // Effects
-            'text-shadow'
-          )}
-        >
-          Projects
-        </h1>
+      <div>
+        <h1>Projects</h1>
       </div>
       <div 
         className={clsx(
           // Layout
-          'grid grid-cols-1 md:grid-cols-2',
+          'flex flex-wrap',
           // Spacing
           'gap-6'
         )}
@@ -59,13 +35,17 @@ const Projects: React.FC = () => {
             key={index}
             className={clsx(
               // Base styles  
-              'bg-dark1 rounded shadow-default',
+              'bg-dark1 rounded shadow-default bubble',
               // Spacing
-              'p-6'
+              'p-6',
+              // Sizing
+              'w-[30%]'
             )}
           >
             <h2 
               className={clsx(
+                // Base styles
+                'text-shadow-DEFAULT',
                 // Typography
                 'text-light2 text-2xl font-bold',
                 // Effects
@@ -100,8 +80,8 @@ const Projects: React.FC = () => {
                 <span 
                   key={techIndex}
                   className={clsx(
-                    // Visual
-                    'bg-dark2 rounded-full',
+                    // Base styles
+                    'bg-dark2 rounded-full shadow',
                     // Typography
                     'text-light1 text-sm',
                     // Spacing

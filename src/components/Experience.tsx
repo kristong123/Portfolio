@@ -11,28 +11,7 @@ const Experience: React.FC = () => {
         Teaching assistant at the Paul G. Allen School of Computer Science. Providing 1:1 
         mentoring with students while collaborating as a team to manage a first-year 
         computer science course.
-      `,
-      tech: ['Java']
-    },
-    {
-      title: 'Paul G. Allen Scholars Teaching Assistant',
-      img: pgaIcon,
-      description: `
-        Teaching assistant at the Paul G. Allen School of Computer Science. Providing 1:1 
-        mentoring with students while collaborating as a team to manage a first-year 
-        computer science course.
-      `,
-      tech: ['Java']
-    },
-    {
-      title: 'Paul G. Allen Scholars Teaching Assistant',
-      img: pgaIcon,
-      description: `
-        Teaching assistant at the Paul G. Allen School of Computer Science. Providing 1:1 
-        mentoring with students while collaborating as a team to manage a first-year 
-        computer science course.
-      `,
-      tech: ['Java']
+      `
     }
   ]
 
@@ -67,8 +46,8 @@ const Experience: React.FC = () => {
               // Base styles
               'bg-dark1 rounded shadow',
               // Layout
-              'w-[50%]',
-              // Spacing
+              'w-[80vh]',
+              // Spacing  
               'p-[3vh]',
               // Margins
               'mb-4'

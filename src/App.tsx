@@ -4,6 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import './index.css';
+import Contact from './components/Contact';
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
         <About />
         <Experience />
         <Projects />
+        <Contact />
       </main>
     </div>
   );

@@ -42,7 +42,7 @@ const Profile: React.FC = () => {
           // Typography
           'font-bold text[3vh]',
           // Effects
-          'text-shadow',
+          'text-shadow-DEFAULT',
           // Spacing
           'ml-[5%]'
         )}
