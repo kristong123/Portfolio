@@ -8,13 +8,13 @@ import Contact from './components/Contact';
 
 const App: React.FC = () => {
   return (
-    <div className="flex flex-row w-[90%]">
-      <Sidebar />
-      <main className="flex flex-col w-full ml-[22vh]">
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
+    <div className='flex flex-row h-screen w-screen'>
+      <Sidebar/>
+      <main className='flex flex-col ml-sidebar-plus'>
+        <About/>
+        <Experience/>
+        <Projects/>
+        <Contact/>
       </main>
     </div>
   );

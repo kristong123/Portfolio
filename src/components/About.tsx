@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import GithubContributions from './GithubContributions';
 
 const About: React.FC = () => {
   return (
@@ -19,17 +20,19 @@ const About: React.FC = () => {
           // Base styles
           'bubble',
           // Layout
-          'w-[100vh]',
+          'w-[50%]',
           // Spacing
-          'p-[4vh]', 'pt-[2.5vh]'
+          'p-5',
         )}
       >
         <h2 
           className={clsx(
             // Typography
-            'text-light2 text-[3.5vh]', 
+            'text-light2 text-2xl', 
             // Effects
-            'text-shadow-DEFAULT'
+            'text-shadow-DEFAULT',
+            // Spacing
+            'mb-2'
           )}
         >
           Hey, I'm Kris!
@@ -44,6 +47,7 @@ const About: React.FC = () => {
           Hope you think my portfolio is cool! Feel free to reach out to me on social media or through email.
         </p>
       </div>
+      <GithubContributions />
     </section>
   );
 };

@@ -14,9 +14,9 @@ const Profile: React.FC = () => {
         // Layout
         'flex flex-row items-center justify-center',
         // Sizing
-        'h-[6%] w-full',
+        'h-10 w-full',
         // Spacing
-        'mt-[1vh]', 'ml-[1vh]',
+        'mt-2', 'ml-2',
         // Typography
         'text-white',
         // Interactive
@@ -40,7 +40,7 @@ const Profile: React.FC = () => {
       <p 
         className={clsx(
           // Typography
-          'font-bold text[3vh]',
+          'font-bold',
           // Effects
           'text-shadow-DEFAULT',
           // Spacing

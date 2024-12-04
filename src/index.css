@@ -4,6 +4,10 @@
 
 /* Base styles */
 @layer base {
+  :root {
+    --sidebar-width: 8rem;
+  }
+
   body {
     @apply font-inter text-white bg-dark2;
   }
@@ -11,22 +15,22 @@
 
 /* Component styles */
 @layer components {
-  /* Link components */
+  /* General components */
   .styled-link {
     @apply cursor-pointer text-light2 bg-dark1 rounded px-5 py-1 no-underline;
   }
 
   /* Section components */
   .section {
-    @apply flex flex-col w-full h-fit mb-8 p-[1vh];
+    @apply flex flex-col w-full h-fit mb-8 p-2;
   }
 
   .section h1 {
-    @apply text-light2 text-[4vh] m-[2vh] mt-[1vh] text-shadow-DEFAULT;
+    @apply text-light2 text-3xl m-2 mb-4 text-shadow-DEFAULT;
   }
 
   .section p {
-    @apply text-shadow-DEFAULT;
+    @apply text-base text-shadow-DEFAULT;
   }
 
   /* Bubble components */

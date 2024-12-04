@@ -14,7 +14,7 @@ const Sidebar: React.FC = () => {
         // Layout
         'flex flex-col fixed',
         // Sizing
-        'h-screen w-[20vh]'
+        'h-screen w-sidebar'
       )}
     >
       <Profile/>
@@ -32,11 +32,11 @@ const Sidebar: React.FC = () => {
           <p 
             className={clsx(
               // Typography
-              'text-light2 text-[2vh] font-bold',
+              'text-light2 text-sm font-bold',
               // Effects
               'text-shadow',
               // Spacing
-              'mt-[2vh] mb-[1vh] ml-[2vh]',
+              'm-3 mb-2',
               // Transitions
               'transition-all duration-300 ease-out',
               // Hover

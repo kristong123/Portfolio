@@ -44,11 +44,11 @@ const Experience: React.FC = () => {
             key={index}
             className={clsx(
               // Base styles
-              'bg-dark1 rounded shadow',
+              'bubble',
               // Layout
-              'w-[80vh]',
+              'w-[40%]',
               // Spacing  
-              'p-[3vh]',
+              'p-5',
               // Margins
               'mb-4'
             )}
@@ -56,7 +56,7 @@ const Experience: React.FC = () => {
             <h2 
               className={clsx(
                 // Typography
-                'text-light2 text-[3vh]',
+                'text-light2 text-xl',
                 // Margins
                 'm-0',
                 // Effects

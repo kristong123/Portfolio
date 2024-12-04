@@ -13,6 +13,10 @@ export default {
         light1: '#c7c7db',
         light2: '#a8a7c4',
       },
+      spacing: {
+        'sidebar': 'var(--sidebar-width)',
+        'sidebar-plus': 'calc(var(--sidebar-width) + 1rem)',
+      },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
       },
