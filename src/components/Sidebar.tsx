@@ -32,13 +32,13 @@ const Sidebar: React.FC = () => {
           <p 
             className={clsx(
               // Typography
-              'text-light2 text-sm font-bold',
+              'text-light2 text-[1vw] font-bold',
               // Effects
-              'text-shadow',
+              'text-shadow-DEFAULT',
               // Spacing
-              'm-3 mb-2',
+              'm-[1vw] mb-[0.5vw]',
               // Transitions
-              'transition-all duration-300 ease-out',
+              'transition-colors duration-300 ease-out',
               // Hover
               'group-hover:text-light1'
             )}
@@ -48,7 +48,7 @@ const Sidebar: React.FC = () => {
           <div 
             className={clsx(
               // Visual
-              'h-0.5 w-4/5',
+              'h-[0.15vw] w-4/5',
               'bg-gradient-to-r from-dark1 via-dark1 to-transparent',
               // Transitions
               'transition-all duration-300 ease-out',

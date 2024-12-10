@@ -20,7 +20,7 @@ const About: React.FC = () => {
           // Base styles
           'bubble',
           // Layout
-          'w-[50%]',
+          'flex flex-row flex-wrap w-[35rem]',
           // Spacing
           'p-5',
         )}
@@ -44,7 +44,7 @@ const About: React.FC = () => {
           I like spending time hanging out with friends, meeting new people, and experiencing new things.
         </p>
         <p>
-          Hope you think my portfolio is cool! Feel free to reach out to me on social media or through email.
+          Feel free to reach out to me on social media or through email.
         </p>
       </div>
       <GithubContributions />

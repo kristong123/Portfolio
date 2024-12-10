@@ -10,13 +10,13 @@ const Profile: React.FC = () => {
       id="profile-home"
       className={clsx(
         // Base styles
-        'bubble',
+        'bubble rounded-[1.25vw]',
         // Layout
         'flex flex-row items-center justify-center',
         // Sizing
-        'h-10 w-full',
+        'h-[3vw] w-full',
         // Spacing
-        'mt-2', 'ml-2',
+        'mt-[0.5vw]', 'ml-[0.5vw]',
         // Typography
         'text-white',
         // Interactive
@@ -32,7 +32,7 @@ const Profile: React.FC = () => {
         alt="Profile"
         className={clsx(
           // Sizing
-          'h-[60%]',
+          'h-[1.75vw]',
           // Visual
           'rounded-full shadow-default'
         )}
@@ -40,7 +40,7 @@ const Profile: React.FC = () => {
       <p 
         className={clsx(
           // Typography
-          'font-bold',
+          'text-[1.2vw] font-bold',
           // Effects
           'text-shadow-DEFAULT',
           // Spacing

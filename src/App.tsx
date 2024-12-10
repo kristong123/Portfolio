@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 
 const App: React.FC = () => {
   return (
-    <div className='flex flex-row h-screen w-screen'>
+    <div className='flex flex-row'>
       <Sidebar/>
       <main className='flex flex-col ml-sidebar-plus'>
         <About/>
