@@ -120,7 +120,7 @@ const GithubContributions = () => {
       // Layout
       'w-fit',
       // Spacing
-      'p-6',
+      'p-5',
     )}>
       <div className={clsx(
         // Layout
@@ -128,12 +128,30 @@ const GithubContributions = () => {
         // Spacing
         'gap-4'
       )}>
-        <p className={clsx(
-          // Typography
-          'text-lg text-gray-200'
+        <div className={clsx(
+          // Layout
+          'flex flex-row items-center',
+          // Spacing
+          'gap-3'
         )}>
-          {data.totalContributions} contributions in the last year
-        </p>
+          <h2 
+            className={clsx(
+              // Typography
+              'text-light2 text-2xl', 
+              // Effects
+              'text-shadow-DEFAULT',
+            )}
+          >
+            Github
+          </h2>
+          <p className={clsx(
+            // Typography
+            'text-lg text-gray-200'
+          )}>
+            {data.totalContributions} contributions in the last year
+          </p>
+        </div>
+          
         
         <div className="relative">
           {/* Month labels */}
