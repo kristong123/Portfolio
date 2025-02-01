@@ -4,14 +4,11 @@
   "version": "1.0.0",
   "description": "My personal portfolio showcasing my projects and skills.",
   "main": "app.js",
-  "homepage": "https://kristtong123.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node server.js"
   },
   "author": "Kris Tong",
   "license": "ISC",
