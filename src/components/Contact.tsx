@@ -29,9 +29,7 @@ const Contact: React.FC = () => {
       </div>
       <div className={clsx(
         // Layout 
-        'flex flex-row flex-wrap',
-        // Spacing
-        'mr-[2vh]',
+        'row flex-wrap'
       )}>
         {contacts.map((contact, index) => (
           <div 
@@ -40,11 +38,11 @@ const Contact: React.FC = () => {
               // Base styles
               'bg-dark1 rounded shadow',
               // Layout
-              'w-fit h-[15vh]',
+              'row w-fit h-fit items-center',
               // Spacing  
-              'p-[3vh]',
+              'p-4',
               // Margins
-              'm-[1vh]'
+              'm-1'
             )}
           >
             <img 
@@ -52,17 +50,17 @@ const Contact: React.FC = () => {
               alt='Paul G. Allen School of Computer Science'
               className={clsx(
                 // Dimensions
-                'w-[8vh] h-[8vh]',
+                'w-10 h-10',
                 // Effects
                 'shadow'
               )}
             />
             <p 
               className={clsx(
-                // Typography
-                'text-[2.5vh]',
                 // Effects
-                'text-shadow'
+                'text-shadow',
+                // Spacing
+                'ml-2'
               )}
             >
               {contact.description}

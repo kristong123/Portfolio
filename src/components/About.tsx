@@ -20,7 +20,7 @@ const About: React.FC = () => {
           // Base styles
           'bubble',
           // Layout
-          'flex flex-row flex-wrap w-[35rem]',
+          'row flex-wrap w-[35rem]',
           // Spacing
           'p-5',
         )}

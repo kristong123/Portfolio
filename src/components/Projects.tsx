@@ -4,11 +4,21 @@ import clsx from 'clsx';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "Portfolio Website",
+      title: "Divvy",
+      description: `
+        A social and financial app that allows bill splitting and group budgeting. 
+        Features include event creation and management for tracking expenses, user authentication,
+        real-time updates, and a full messaging system.
+      `,
+      tech: ["React", "TypeScript", "Node", "Tailwind CSS", "Vite"],
+      link: "https://github.com/kristong123/Divvy"
+    },
+    {
+      title: "USInflated",
       description: "A personal portfolio website built with React, TypeScript, and Tailwind CSS. Features include responsive design, dark theme, and API integration.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      link: "https://github.com/yourusername/portfolio"
-    }
+      link: "https://cse442.pages.cs.washington.edu/24au/fp/USInflated/"
+    },
   ];
 
   return (

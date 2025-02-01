@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import pgaIcon from '@images/pga.png';
+import wordplayIcon from '@images/wordplay.png';
 
 const Experience: React.FC = () => {
   const experiences = [
@@ -11,6 +12,13 @@ const Experience: React.FC = () => {
         Teaching assistant at the Paul G. Allen School of Computer Science. Providing 1:1 
         mentoring with students while collaborating as a team to manage a first-year 
         computer science course.
+      `
+    },
+    {
+      title: 'Wordplay Developer',
+      img: wordplayIcon,
+      description: `
+        Contributed as a member of the Wordplay development team engaging in front-en
       `
     }
   ]
@@ -36,7 +44,7 @@ const Experience: React.FC = () => {
         id='experience-content'
         className={clsx(
           // Layout
-          'w-full'
+          'row flex-wrap w-full'
         )}
       >
         {experiences.map((experience, index) => (
@@ -48,7 +56,7 @@ const Experience: React.FC = () => {
               // Layout
               'w-[40%]',
               // Spacing  
-              'p-5',
+              'ml-5 p-5',
               // Margins
               'mb-4'
             )}
@@ -68,7 +76,7 @@ const Experience: React.FC = () => {
             <div 
               className={clsx(
                 // Layout
-                'flex flex-row',
+                'row',
                 // Alignment
                 'items-start'
               )}
@@ -78,19 +86,17 @@ const Experience: React.FC = () => {
                 alt='Paul G. Allen School of Computer Science'
                 className={clsx(
                   // Dimensions
-                  'w-[10vh] h-[10vh]',
+                  'w-20 h-20',
                   // Margins
-                  'm-[2vh] ml-0',
+                  'm-5 ml-0',
                   // Effects
                   'shadow'
                 )}
               />
               <p 
                 className={clsx(
-                  // Typography
-                  'text-[2.5vh]',
                   // Margins
-                  'mt-[1.5vh]',
+                  'mt-4',
                   // Effects
                   'text-shadow',
                   // Layout

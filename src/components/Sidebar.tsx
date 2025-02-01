@@ -12,7 +12,7 @@ const Sidebar: React.FC = () => {
       id="sidebar" 
       className={clsx(
         // Layout
-        'flex flex-col fixed',
+        'col fixed',
         // Sizing
         'h-screen w-sidebar'
       )}

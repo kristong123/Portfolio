@@ -12,7 +12,7 @@ const Profile: React.FC = () => {
         // Base styles
         'bubble rounded-[1.25vw]',
         // Layout
-        'flex flex-row items-center justify-center',
+        'row items-center justify-center',
         // Sizing
         'h-[3vw] w-full',
         // Spacing

@@ -32,7 +32,7 @@ export default {
       },
       transition: {
         DEFAULT: 'all duration-300 ease-out'
-      }
+      },
     }
   },
   plugins: [

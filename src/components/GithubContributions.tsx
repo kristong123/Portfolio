@@ -124,13 +124,13 @@ const GithubContributions = () => {
     )}>
       <div className={clsx(
         // Layout
-        'flex flex-col',
+        'col',
         // Spacing
         'gap-4'
       )}>
         <div className={clsx(
           // Layout
-          'flex flex-row items-center',
+          'row items-center',
           // Spacing
           'gap-3'
         )}>
@@ -182,7 +182,7 @@ const GithubContributions = () => {
             {/* Day labels */}
             <div className={clsx(
               // Layout
-              'flex flex-col justify-between',
+              'col justify-between',
               // Typography
               'text-xs text-gray-400',
               // Spacing

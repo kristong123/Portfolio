@@ -20,6 +20,13 @@
     @apply cursor-pointer text-light2 bg-dark1 rounded px-5 py-1 no-underline;
   }
 
+  .row {
+    @apply flex flex-row;
+  }
+  .col {
+    @apply flex flex-col;
+  }
+
   /* Section components */
   .section {
     @apply flex flex-col w-full h-fit mb-8 p-2 gap-4;
