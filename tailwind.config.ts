@@ -15,7 +15,7 @@ export default {
       },
       spacing: {
         'sidebar': 'var(--sidebar-width)',
-        'sidebar-plus': 'calc(var(--sidebar-width) + 1vw)',
+        'sidebar-plus': 'calc(var(--sidebar-width) + 1rem)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

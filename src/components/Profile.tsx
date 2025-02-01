@@ -10,13 +10,13 @@ const Profile: React.FC = () => {
       id="profile-home"
       className={clsx(
         // Base styles
-        'bubble rounded-[1.25vw]',
+        'bubble rounded-full',
         // Layout
         'row items-center justify-center',
         // Sizing
-        'h-[3vw] w-full',
+        'h-12 w-full',
         // Spacing
-        'mt-[0.5vw]', 'ml-[0.5vw]',
+        'mt-2', 'ml-2',
         // Typography
         'text-white',
         // Interactive
@@ -32,7 +32,7 @@ const Profile: React.FC = () => {
         alt="Profile"
         className={clsx(
           // Sizing
-          'h-[1.75vw]',
+          'h-8',
           // Visual
           'rounded-full shadow-default'
         )}
@@ -40,11 +40,11 @@ const Profile: React.FC = () => {
       <p 
         className={clsx(
           // Typography
-          'text-[1.2vw] font-bold',
+          'text-xl font-bold',
           // Effects
           'text-shadow-DEFAULT',
           // Spacing
-          'ml-[5%]'
+          'ml-1'
         )}
       >
         Kris Tong

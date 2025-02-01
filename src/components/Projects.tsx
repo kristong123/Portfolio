@@ -8,16 +8,29 @@ const Projects: React.FC = () => {
       description: `
         A social and financial app that allows bill splitting and group budgeting. 
         Features include event creation and management for tracking expenses, user authentication,
-        real-time updates, and a full messaging system.
+        real-time updates, and a full messaging system. (In progress)
       `,
       tech: ["React", "TypeScript", "Node", "Tailwind CSS", "Vite"],
       link: "https://github.com/kristong123/Divvy"
     },
     {
       title: "USInflated",
-      description: "A personal portfolio website built with React, TypeScript, and Tailwind CSS. Features include responsive design, dark theme, and API integration.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      description: `
+      This project focuses on analyzing and presenting U.S. inflation data through interactive and user-friendly 
+        visualizations, offering insights into economic trends over time. Provides an engaging platform for exploring inflation metrics across 
+        various categories such as food, housing, and transportation. It serves as an educational tool for understanding complex economic data 
+        through data analysis, visualization, and front-end development.
+      `,
+      tech: ["Observable", "D3", "Javascript", "HTML", "CSS"],
       link: "https://cse442.pages.cs.washington.edu/24au/fp/USInflated/"
+    },
+    {
+      title: "UW Pathfinder",
+      description: `
+        Navigation app for the University of Washington. Uses dijkstra's algorithm to calculate the shortest path between any two buildings on campus.
+      `,
+      tech: ["Typescript"],
+      link: "https://github.com/kristong123/UW-Campus-Paths"
     },
   ];
 
@@ -49,7 +62,7 @@ const Projects: React.FC = () => {
               // Spacing
               'p-6',
               // Sizing
-              'w-[30%]'
+              'w-[25rem] h-fit'
             )}
           >
             <h2 

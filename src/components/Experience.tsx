@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import pgaIcon from '@images/pga.png';
-import wordplayIcon from '@images/wordplay.png';
+import divvyIcon from '@images/divvy.png';
 
 const Experience: React.FC = () => {
   const experiences = [
@@ -15,10 +15,12 @@ const Experience: React.FC = () => {
       `
     },
     {
-      title: 'Wordplay Developer',
-      img: wordplayIcon,
+      title: 'Lead Developer, Divvy',
+      img: divvyIcon,
       description: `
-        Contributed as a member of the Wordplay development team engaging in front-en
+        Lead developer of a social and financial app that allows bill splitting and group budgeting. 
+        Pitched the idea, recruited a team, and managed the project to create a minimum viable product.
+        The process involved planning, design, development, testing, and deployment.
       `
     }
   ]
@@ -54,7 +56,7 @@ const Experience: React.FC = () => {
               // Base styles
               'bubble',
               // Layout
-              'w-[40%]',
+              'w-[30rem] h-fit',
               // Spacing  
               'ml-5 p-5',
               // Margins
