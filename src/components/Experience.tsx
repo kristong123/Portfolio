@@ -58,7 +58,7 @@ const Experience: React.FC = () => {
               // Layout
               'w-[30rem] h-fit',
               // Spacing  
-              'ml-5 p-5',
+              'mr-5 p-5',
               // Margins
               'mb-4'
             )}

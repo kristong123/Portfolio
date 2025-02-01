@@ -10,7 +10,7 @@ const Profile: React.FC = () => {
       id="profile-home"
       className={clsx(
         // Base styles
-        'bubble rounded-full',
+        'bubble rounded-2xl',
         // Layout
         'row items-center justify-center',
         // Sizing
@@ -32,7 +32,7 @@ const Profile: React.FC = () => {
         alt="Profile"
         className={clsx(
           // Sizing
-          'h-8',
+          'h-7',
           // Visual
           'rounded-full shadow-default'
         )}
@@ -40,11 +40,11 @@ const Profile: React.FC = () => {
       <p 
         className={clsx(
           // Typography
-          'text-xl font-bold',
+          'text-10 font-bold',
           // Effects
           'text-shadow-DEFAULT',
           // Spacing
-          'ml-1'
+          'ml-2'
         )}
       >
         Kris Tong
