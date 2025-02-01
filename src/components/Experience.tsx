@@ -15,7 +15,7 @@ const Experience: React.FC = () => {
       `
     },
     {
-      title: 'Lead Developer, Divvy',
+      title: 'Lead Developer, 403 Software Engineering',
       img: divvyIcon,
       description: `
         Lead developer of a social and financial app that allows bill splitting and group budgeting. 
