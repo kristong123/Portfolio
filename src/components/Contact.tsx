@@ -8,6 +8,7 @@ const Contact: React.FC = () => {
     {
       img: gmailIcon,
       description: 'kristtong123@gmail.com',
+      link: 'mailto:kristtong123@gmail.com',
     },
     {
       img: linkedinIcon,
